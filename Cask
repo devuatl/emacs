@@ -4,5 +4,7 @@
 
 (depends-on "auto-complete")
 (depends-on "feature-mode")
+(depends-on "grizzl")
 (depends-on "ido-vertical-mode")
+(depends-on "projectile")
 (depends-on "yaml-mode")

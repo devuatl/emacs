@@ -15,3 +15,4 @@
 (add-to-list 'ac-modes 'web-mode)
 
 (load "00common-setup.el")
+(load "01projectile.el")
