@@ -146,3 +146,7 @@
   (toggle-read-only))
  
 (add-hook 'compilation-filter-hook 'colorize-compilation-buffer)
+
+( custom-set-variables
+ ' ( global-linum-mode t ) 
+ ' ( column-number-mode t ) )
