@@ -29,11 +29,6 @@
 ;; y/n instead of yes/no
 (defalias 'yes-or-no-p 'y-or-n-p)              
  
-(set-cursor-color "red")
- 
-(setq default-frame-alist
-      '((cursor-color . "red")))
- 
 ;; Highlight incremental search
 (setq search-highlight t)
 (transient-mark-mode t)

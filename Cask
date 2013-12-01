@@ -7,4 +7,5 @@
 (depends-on "grizzl")
 (depends-on "ido-vertical-mode")
 (depends-on "projectile")
+(depends-on "robe")
 (depends-on "yaml-mode")
