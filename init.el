@@ -7,6 +7,7 @@
 (require 'ido)
 
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+(add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
 
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories
@@ -16,6 +17,9 @@
 (add-to-list 'ac-modes 'enh-ruby-mode)
 (add-to-list 'ac-modes 'web-mode)
 (add-to-list 'ac-modes 'js2-mode)
+
+(require 'tramp)
+(setq tramp-default-method "ssh")
 
 (load "00common-setup.el")
 (load "01projectile.el")

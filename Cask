@@ -9,4 +9,5 @@
 (depends-on "js2-mode")
 (depends-on "projectile")
 (depends-on "robe")
+(depends-on "web-mode")
 (depends-on "yaml-mode")
