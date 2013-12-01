@@ -6,6 +6,7 @@
 (depends-on "feature-mode")
 (depends-on "grizzl")
 (depends-on "ido-vertical-mode")
+(depends-on "js2-mode")
 (depends-on "projectile")
 (depends-on "robe")
 (depends-on "yaml-mode")

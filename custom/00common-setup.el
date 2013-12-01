@@ -145,3 +145,5 @@
 ( custom-set-variables
  ' ( global-linum-mode t ) 
  ' ( column-number-mode t ) )
+
+(add-hook 'before-save-hook 'delete-trailing-whitespace)    
