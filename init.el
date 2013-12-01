@@ -20,3 +20,4 @@
 (load "00common-setup.el")
 (load "01projectile.el")
 (load "02robe.el")
+(load "03js2.el")
