@@ -3,6 +3,7 @@
 (source marmalade)
 
 (depends-on "auto-complete")
+(depends-on "enh-ruby-mode")
 (depends-on "feature-mode")
 (depends-on "grizzl")
 (depends-on "ido-vertical-mode")
