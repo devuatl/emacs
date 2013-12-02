@@ -3,6 +3,7 @@
 (source marmalade)
 
 (depends-on "auto-complete")
+(depends-on "dash-at-point")
 (depends-on "enh-ruby-mode")
 (depends-on "feature-mode")
 (depends-on "flyspell-lazy")

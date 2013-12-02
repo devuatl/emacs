@@ -28,3 +28,4 @@
 (load "02robe.el")
 (load "03js2.el")
 (load "04flyspell.el")
+(load "05dash-at-point.el")
