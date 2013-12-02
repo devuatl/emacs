@@ -5,6 +5,7 @@
 (depends-on "auto-complete")
 (depends-on "enh-ruby-mode")
 (depends-on "feature-mode")
+(depends-on "flyspell-lazy")
 (depends-on "grizzl")
 (depends-on "ido-vertical-mode")
 (depends-on "js2-mode")
