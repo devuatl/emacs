@@ -46,7 +46,7 @@
 (global-set-key [f2] 'comment-region)
 (global-set-key [f3] 'uncomment-region)
 (global-set-key [f5] 'indent-region)
-(global-set-key "\C-w" 'backward-kill-word)
+;(global-set-key "\C-w" 'backward-kill-word)
 (global-set-key "\C-l" 'end-of-line)
 
 (global-set-key "\C-x\C-k" 'kill-region)
@@ -130,7 +130,7 @@
       (occur (if isearch-regexp isearch-string (regexp-quote isearch-string))))))
 
 (require 'yaml-mode)
-    (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
+(add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 
 (require 'ansi-color)
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
@@ -148,3 +148,5 @@
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 (setq scroll-step 1)
+
+(add-hook 'prog-mode-hook 'hs-minor-mode)
