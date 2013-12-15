@@ -32,3 +32,4 @@
 (load "04flyspell.el")
 (load "05dash-at-point.el")
 (load "06move-text.el")
+(load "07highlight-indentation.el")
