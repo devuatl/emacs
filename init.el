@@ -10,6 +10,7 @@
 (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\Gemfile\\'" . enh-ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.rake\\'" . enh-ruby-mode))
+(add-to-list 'auto-mode-alist '("\\.css.scss.erb\\'" . css-mode))
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
 
 (require 'auto-complete-config)
@@ -30,3 +31,4 @@
 (load "03js2.el")
 (load "04flyspell.el")
 (load "05dash-at-point.el")
+(load "06move-text.el")
