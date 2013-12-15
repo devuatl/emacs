@@ -150,3 +150,6 @@
 (setq scroll-step 1)
 
 (add-hook 'prog-mode-hook 'hs-minor-mode)
+
+(tool-bar-mode -1)
+(setq ring-bell-function 'ignore)
